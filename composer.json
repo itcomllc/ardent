@@ -20,6 +20,7 @@
         "issues": "https://github.com/laravelbook/ardent/issues"
     },
     "require": {
+    	"php": ">=7.1",
         "illuminate/support": "^5.6",
         "illuminate/database": "^5.6",
         "illuminate/validation": "^5.6",
