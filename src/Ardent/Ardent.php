@@ -443,12 +443,13 @@ abstract class Ardent extends Model {
 	 * Overriden from {@link Eloquent\Model} to allow the usage of the intermediary methods to handle the {@link
 	 * $relationsData} array.
 	 *
-	 * @param  string  $name
-	 * @param  string  $type
-	 * @param  string  $id
+	 * @param  string|null  $name
+	 * @param  string|null  $type
+	 * @param  string|null  $id
+     * @param  string|null  $ownerKey
 	 * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
 	 */
-	public function morphTo($name = null, $type = null, $id = null) {
+	public function morphTo($name = null, $type = null, $id = null, $ownerKey = null) {
 		// If no name is provided, we will use the backtrace to get the function name
 		// since that is most likely the name of the polymorphic interface. We can
 		// use that to get both the class and foreign key that will be utilized.
