@@ -1,7 +1,17 @@
 {
     "name": "laravelbook/ardent",
     "description": "Self-validating smart models for Laravel 5's Eloquent ORM",
-    "keywords": ["validation", "laravel", "framework", "eloquent", "database", "sql", "orm", "activerecord", "active record"],
+    "keywords": [
+        "validation",
+        "laravel",
+        "framework",
+        "eloquent",
+        "database",
+        "sql",
+        "orm",
+        "activerecord",
+        "active record"
+    ],
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
